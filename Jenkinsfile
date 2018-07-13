@@ -5,8 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'pip install sphinx_rtd_theme'
-                sh 'make html'
             }
         }
         stage('Test') {
@@ -14,9 +12,13 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Test truc') {
+        stage('Doc') {
             steps {
-                echo 'Testing..'
+                echo 'Constructing doc ..'
+                sh 'pip install sphinx_rtd_theme'
+                sh 'make html'
+
+                echo 'Doc ok'
             }
         }
         stage('Deploy') {

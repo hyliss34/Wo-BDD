@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..';
+                echo 'Building..'
+                sh 'pip install sphinx_rtd_theme'
                 sh 'make html'
             }
         }

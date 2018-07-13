@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-                make doc
+                echo 'Building..';
+                make html
             }
         }
         stage('Test') {

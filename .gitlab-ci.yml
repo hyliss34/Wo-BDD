@@ -7,4 +7,7 @@ before_script:
 
 doc:
   stage: build
-  script: make html
+  script:
+    - cd
+    - ls -l
+    - make html

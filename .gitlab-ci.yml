@@ -1,6 +1,9 @@
 before_script:
-  - echo 'start'git
-  - pip install sphinx
+  - echo 'start'
+  - apt-get update -qy
+  - apt-get install -y python-dev python-pip
+  - pip install -r requirements.txt
+  - echo 'Preparation done !'
 
 doc:
   stage: build

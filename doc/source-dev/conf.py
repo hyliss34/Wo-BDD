@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath('../..'))
 # -- Project information -----------------------------------------------------
 
 project = 'BDD'
-copyright = '2018, Aurélien Dentan'
-author = 'Aurélien Dentan'
+copyright = '2018, Aurelien Dentan'
+author = 'Aurelien Dentan'
 
 # The short X.Y version
 version = '0.1'

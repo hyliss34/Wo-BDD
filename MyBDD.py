@@ -1,6 +1,4 @@
-"""
-.. module:: truc
-"""
+
 import pymysql
 
 

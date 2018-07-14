@@ -1,8 +1,3 @@
-"""
-.. module:: WowApi
-"""
-import requests
-from MyBDD import add_guild, add_member
 
 key = "8kwsy7n2nwxbepk857uuhf9ycer9rmg5"
 base_wow = "https://eu.api.battle.net/wow/"

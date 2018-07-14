@@ -1,0 +1,4 @@
+
+doc:
+  stage: build
+  script: make html

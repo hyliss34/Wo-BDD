@@ -5,10 +5,10 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = BDD
-SOURCEDIR     = source
-BUILDDIR      = build
-SOURCEDIRDEV  = source-dev
-BUILDDIRDEV   = build-dev
+SOURCEDIR     = doc/source
+BUILDDIR      = doc/build
+SOURCEDIRDEV  = doc/source-dev
+BUILDDIRDEV   = doc/build-dev
 
 # Put it first so that "make" without argument is like "make help".
 help:
